@@ -1,0 +1,49 @@
+#bottom-bar{
+    position: absolute;
+    bottom:0px;
+    background-color: brown;
+    width: 100% ;
+    height: 100px;
+}
+
+#buttons{
+    display: inline-block;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 35px;
+    background-color:rgb(179, 132, 100);
+    max-width: 30px;
+    text-align: center;
+}
+
+li:hover{
+    background-color: rgb(136, 101, 77);
+}
+
+h1{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        height: 200px;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        font-size: 200px;
+      
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
